@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css-site/style.site.css" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <link rel="icon" href="images/logo.ico" type="image/x-icon" />
+    <title>Portal Gamer</title>
+</head>
+<body>
+
+    <header class="inicial">
+        <div class="icon__social">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-discord"></i></a>
+        </div>
+        <div class="center">
+            <div class="logo"><a href="">Gemugakure</a></div>
+
+            <div class="menu__desktop">
+                <a href="../index.html">Página Inicial</a>
+                <a class="page__atual" href="">Sobre</a>
+                <a href="../pages/sugestoes.html">Sugestões</a>
+            </div><!--menu__desktop-->
+
+            <div class="menu__mobile">
+                <div class="icon__menu--mobile"><i class="fas fa-hamburger"></i></div>
+                <div class="ul">
+                    <a href="../index.html">Página Inicial</a>
+                    <a class="page__atual" href="">Sobre</a>
+                    <a href="../pages/sugestoes.html">Sugestões</a>
+                </div>
+            </div><!---menu__mobile-->
+
+                <div class="clear"></div>
+        </div><!--center-->
+    </header>
+
+<section class="sobre">
+    <div class="center">
+
+        <div class="sobre__about-criador">
+            <div style="width: 100%; background-color:#ccc; height: 200px;margin-bottom:50px;" class="img"></div>
+            <h2>Sobre o cirador:</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, deserunt iste vitae amet veniam sunt adipisci consequatur, quam laborum eum possimus, pariatur aut ex dolorem dicta. Modi quis similique provident.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum fugit fuga distinctio dolore saepe repudiandae quaerat similique, quos molestias dicta! Provident, dicta. Dolore molestiae, dolores magni voluptatibus suscipit ipsum recusandae.</p>
+        </div><!--sobre__about-criador-->
+
+        <div class="sobre__about-pjt">
+            <h2>Sobre o Projeto</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat culpa veritatis officiis? Dolorem, maiores? Voluptates dolore, accusantium nam unde ratione nihil eligendi ducimus, a doloremque dignissimos iusto doloribus neque cumque.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, est ut corporis et tempore nostrum sapiente quas non sit officia, nulla eligendi odit minima eius iure voluptatem omnis eaque accusantium!</p>
+        </div><!--sobre__about-pjt-->
+
+    </div><!--center-->
+</section><!--sobre-->
+
+<footer>
+        <div class="footer__sessao-1">
+            <h2>
+                Links para contato
+            </h2>
+            <div class="footer-single">
+                <h2>lorem</h2>
+                <p>sdsadsdsddsadsddaddsadasdd</p>
+            </div>
+            <div class="footer-single">
+                <h2>lorem</h2>
+                <p>sdsadsdsddsadsddaddsadasdd</p>
+            </div>
+            <div class="footer-single">
+                <h2>lorem</h2>
+                <p>sdsadsdsddsadsddaddsadasdd</p>
+            </div>
+            <div class="clear"></div>
+        </div><!--footer__sessao-1-->
+        <div class="footer-criador">
+            <h2>Site desenvolveido por:</h2>
+            <p>Luís Gabriel Marchió Batista</p>
+            <div class="clear"></div>
+        </div><!--footer-criador-->
+    </footer>
+
+    <script src="../js/all.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script>
+        $(function(){
+            $('.menu__mobile').click(function(){
+                $('.menu__mobile').find('.ul').slideToggle();
+            })
+        })
+    </script>

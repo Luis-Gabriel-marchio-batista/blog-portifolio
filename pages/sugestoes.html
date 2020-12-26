@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <link rel="stylesheet" href="../css-site/style.site.css" />
+    <link rel="icon" href="images/logo.ico" type="image/x-icon" />
+    <title>Portal Gamer</title>
+</head>
+<body>
+
+    <header class="inicial">
+        <div class="icon__social">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-discord"></i></a>
+        </div>
+        <div class="center">
+            <div class="logo"><a href="">Gemugakure</a></div>
+
+            <div class="menu__desktop">
+                <a href="../index.html">Página Inicial</a>
+                <a href="../pages/sobre.html">Sobre</a>
+                <a class="page__atual" href="">Sugestões</a>
+            </div><!--menu__desktop-->
+
+            <div class="menu__mobile">
+                <div class="icon__menu--mobile"><i class="fas fa-hamburger"></i></div>
+                <div class="ul">
+                    <a href="../index.html">Página Inicial</a>
+                    <a href="../pages/sobre.html">Sobre</a>
+                    <a class="page__atual" href="">Sugestões</a>
+                </div>
+            </div><!---menu__mobile-->
+
+                <div class="clear"></div>
+        </div><!--center-->
+    </header>
+
+<section class="sugestoes">
+    <div class="center">
+        <div class="box-sugestoes">
+            <h2>Tem alguma sugestão de <span>melhorias</span> ou de <span>conteudos</span> para o nosso site?</h2>
+            <form action="" method="post">
+                <input type="text" name="nomeSugestao" id="" placeholder="Digite seu nome ou nick..." />
+                <br />
+                <input type="email" name="emailSugestao" placeholder="Digite seu email (opsional)..." />
+                <br />
+                <textarea name="sugestao" placeholder="Digite sua sugestão..." id="" cols="30" rows="10"></textarea>
+                <br />
+                <input type="submit" name="acao" />
+            </form>
+        </div>
+    </div><!--center-->
+</section><!--sugestoes-->
+
+<footer>
+        <div class="footer__sessao-1">
+            <h2>
+                Links para contato
+            </h2>
+            <div class="footer-single">
+                <h2>lorem</h2>
+                <p>sdsadsdsddsadsddaddsadasdd</p>
+            </div>
+            <div class="footer-single">
+                <h2>lorem</h2>
+                <p>sdsadsdsddsadsddaddsadasdd</p>
+            </div>
+            <div class="footer-single">
+                <h2>lorem</h2>
+                <p>sdsadsdsddsadsddaddsadasdd</p>
+            </div>
+            <div class="clear"></div>
+        </div><!--footer__sessao-1-->
+        <div class="footer-criador">
+            <h2>Site desenvolveido por:</h2>
+            <p>Luís Gabriel Marchió Batista</p>
+            <div class="clear"></div>
+        </div><!--footer-criador-->
+    </footer>
+
+    <script src="../js/all.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script>
+        $(function(){
+            $('.menu__mobile').click(function(){
+                $('.menu__mobile').find('.ul').slideToggle();
+            })
+        })
+    </script>
